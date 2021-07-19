@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Airlines Landing page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">
+                Airlines
+            </h2>
+            <div class="toggle">
+            </div>
+        </header>
+        <video src="Sea Of Clouds.mp4" muted loop autoplay></video>
+        <div class="overlay">
+
+        </div>
+        <div class="text">
+            <h2>Have the most comfortable travel experience</h2>
+            <h3>Travel anywhere, without any worries</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Eaque non officia nostrum nihil modi recusandae maxime,
+                quo necessitatibus facere a.</p>
+            <a href='#'>Explore</a>
+        </div>
+        <ul class="social">
+            <li><i class="fab fa-facebook"><a href="#"></a></i></li>
+            <li><i class="fab fa-instagram"><a href="#"></a></i></li>
+            <li><i class="fab fa-twitter"><a href="#"></a></i></li>
+
+
+        </ul>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+
+
+    </script>
+</body>
+
+</html>
